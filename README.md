@@ -1,6 +1,6 @@
 # SmallPhotoViewer
 
-A photo viewer with basic editing tools for GNUstep. Uses [SmallStepLib](../SmallStepLib) for app lifecycle, menus, window style, and file dialogs, and shares the canvas and editing UI with [SmallPaint](../SmallPaint).
+A photo viewer with basic editing tools for GNUstep. Uses [SmallStepLib](../SmallStepLib) for app lifecycle, menus, window style, file dialogs, and the shared [CanvasView](../SmallStepLib/SmallStep/Core/CanvasView.h) (same as [SmallPaint](../SmallPaint)).
 
 ## Features
 
@@ -34,5 +34,4 @@ A photo viewer with basic editing tools for GNUstep. Uses [SmallStepLib](../Smal
 ## Dependencies
 
 - GNUstep (gui, base)
-- [SmallStepLib](../SmallStepLib) (installed)
-- [SmallPaint](../SmallPaint) source (only `Canvas/CanvasView` is compiled in; no need to build SmallPaint first)
+- [SmallStepLib](../SmallStepLib) (installed; includes CanvasView)

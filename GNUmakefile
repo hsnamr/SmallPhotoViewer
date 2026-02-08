@@ -11,12 +11,10 @@ include $(GNUSTEP_MAKEFILES)/common.make
 
 APP_NAME = SmallPhotoViewer
 
-# Share CanvasView with SmallPaint (source from SmallPaint)
 SmallPhotoViewer_OBJC_FILES = \
 	main.m \
 	App/AppDelegate.m \
-	UI/PhotoWindow.m \
-	../SmallPaint/Canvas/CanvasView.m
+	UI/PhotoWindow.m
 
 SmallPhotoViewer_HEADER_FILES = \
 	App/AppDelegate.h \
@@ -26,8 +24,6 @@ SmallPhotoViewer_INCLUDE_DIRS = \
 	-I. \
 	-IApp \
 	-IUI \
-	-I../SmallPaint \
-	-I../SmallPaint/Canvas \
 	-I../SmallStepLib/SmallStep/Core \
 	-I../SmallStepLib/SmallStep/Platform/Linux
 

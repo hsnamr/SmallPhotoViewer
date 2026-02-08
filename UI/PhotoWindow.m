@@ -4,7 +4,6 @@
 //
 
 #import "PhotoWindow.h"
-#import "CanvasView.h"
 #import "SmallStep.h"
 #import "SSWindowStyle.h"
 #import "SSFileDialog.h"
